@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-20T13:27:14 CST" name="Default suite" finished-at="2023-01-20T13:27:31 CST" duration-ms="17599">
+    <groups>
+    </groups>
+    <test started-at="2023-01-20T13:27:14 CST" name="Default test" finished-at="2023-01-20T13:27:31 CST" duration-ms="17599">
+      <class name="appiumTests.Tests">
+        <test-method is-config="true" signature="startAppiumService()[pri:0, instance:appiumTests.Tests@75437611]" started-at="2023-01-20T13:27:11 CST" name="startAppiumService" finished-at="2023-01-20T13:27:14 CST" duration-ms="2518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startAppiumService -->
+        <test-method is-config="true" signature="appiumSetup()[pri:0, instance:appiumTests.Tests@75437611]" started-at="2023-01-20T13:27:14 CST" name="appiumSetup" finished-at="2023-01-20T13:27:26 CST" duration-ms="12115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appiumSetup -->
+        <test-method signature="scrollMenu()[pri:0, instance:appiumTests.Tests@75437611]" started-at="2023-01-20T13:27:26 CST" name="scrollMenu" finished-at="2023-01-20T13:27:31 CST" duration-ms="4761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollMenu -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:appiumTests.Tests@75437611]" started-at="2023-01-20T13:27:31 CST" name="tearDown" finished-at="2023-01-20T13:27:31 CST" duration-ms="640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="quitAppiumService()[pri:0, instance:appiumTests.Tests@75437611]" started-at="2023-01-20T13:27:32 CST" name="quitAppiumService" finished-at="2023-01-20T13:27:32 CST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitAppiumService -->
+      </class> <!-- appiumTests.Tests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

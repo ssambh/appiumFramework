@@ -1,0 +1,15 @@
+Download node js
+download android studio for mobile emulator
+set env variables for sdk tools, sdk tool bin, sdk tools-platform, node home
+Download appium server GUI (Appium server)
+download java client jar from maven or appium site (Appium client)
+download selenium java library from selenium hq
+
+
+get app package and app path
+open the app in the mobile device and input the following cmd
+
+adb shell dumpsys window | find  "mCurrentFocus"
+
+app package - io.appium.android.apis
+app path - io.appium.android.apis.ApiDemos
